@@ -1,0 +1,14 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Pulseira de Couro",
+            "price": 49.90
+        },
+        {
+            "id": 2,
+            "name": "Pulseira de Miçangas",
+            "price": 29.90
+        }
+    ]
+}

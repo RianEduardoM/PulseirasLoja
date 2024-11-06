@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo - Loja de Pulseiras</title>
+    <link rel="stylesheet" href="admin-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Painel Administrativo</h1>
+    </header>
+
+    <section id="test-products">
+        <h2>Teste de Produtos</h2>
+        <button onclick="testAddProduct()">Adicionar Produto</button>
+        <button onclick="testEditProduct()">Editar Produto</button>
+        <button onclick="testDeleteProduct()">Excluir Produto</button>
+        <div id="product-list-admin"></div>
+    </section>
+
+    <section id="test-sales">
+        <h2>Teste de Vendas</h2>
+        <button onclick="testSales()">Simular Venda</button>
+    </section>
+
+    <section id="test-carts">
+        <h2>Teste de Carrinhos</h2>
+        <button onclick="testAddToCart()">Adicionar ao Carrinho</button>
+        <button onclick="testViewCart()">Ver Carrinho</button>
+        <div id="cart-list-admin"></div>
+    </section>
+
+    <section id="send-report">
+        <h2>Relatório de Testes</h2>
+        <textarea id="test-report" placeholder="Relatório de testes aparecerá aqui..." readonly></textarea>
+        <button onclick="sendReport()">Enviar Relatório</button>
+    </section>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
